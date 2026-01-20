@@ -1,0 +1,10 @@
+#start
+height=float(input("enter number"))
+while height<0 :
+    height=float(input("height must be positive.please enter again"))
+base=float(input("enter number"))
+while base<0:
+    base=float(input("base must be positive.please enter again"))
+area=(height*base)/2
+print("area is",area)
+#stop
