@@ -1,0 +1,23 @@
+# start
+
+i = 0
+dannys_grade = int(input("enter danny's grade: "))
+while dannys_grade < 0 or dannys_grade > 100:
+    dannys_grade = int(input("invalid grade. enter danny's grade again: "))
+
+grade = int(input("enter grade (0 to stop): "))
+
+while grade != 0:
+    if grade < 0 or grade > 100:
+        print("invalid grade")
+    else:
+        if grade > dannys_grade:
+            i += 1
+
+    grade = int(input("enter grade (0 to stop): "))
+if i == 0:
+    print("danny has the best grade in class")
+else:
+    print("danny does not have the best grade in class")
+
+# stop
