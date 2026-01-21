@@ -1,0 +1,11 @@
+#start
+pepole=int(input("enter number of pepole:"))
+full_room=pepole//4
+not_full_room=pepole%4
+print("full_room",full_room)
+if not_full_room>0:
+    print("the room is not full")
+    print("there are pepole in the room that is'nt full",not_full_room)
+else:
+    print("all the rooms are full")
+#stop
