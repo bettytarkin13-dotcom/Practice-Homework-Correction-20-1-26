@@ -1,0 +1,17 @@
+# start
+i:int=0
+dannys_grade:int=int(input("enter danny grade"))
+while dannys_grade<0 or dannys_grade>100:
+   dannys_grade=int(input("invalid grade.enter danny grade"))
+else:    
+    grade: int = (int(input("enter grade")))
+    while grade >= 0 or grade <= 100:
+        if grade > dannys_grade:
+            i = i+1
+            grade = int(input("enter grade:"))
+        else:
+            grade = int(input("enter grade:"))
+        print("dannys  have the best grade in class")
+    else:
+        print("dannys dont have the best grade in class")
+#stop
